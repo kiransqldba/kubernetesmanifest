@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: kiran3323/docker-jenkins-testrepo:6
+      - image: kiran3323/docker-jenkins-testrepo:latest
         name: flaskdemo
         resources: {}
 status: {}
